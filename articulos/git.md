@@ -1,1 +1,3 @@
 # Introducción a Git
+
+Git es un sistema de control de versiones distribuido que permite a múltiples desarrolladores trabajar de forma colaborativa...
