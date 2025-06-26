@@ -1,0 +1,3 @@
+# Introducción a GitHub
+
+GitHub es una plataforma para alojar proyectos que utilizan Git. Permite colaboración, seguimiento de cambios y control de versiones...
