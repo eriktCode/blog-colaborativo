@@ -1,20 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="utf-8">
+  <!-- Meta básico -->
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Todo App MVC CODER</title>
+  <!-- SEO -->
+  <title>Todo App | MVC Coder</title>
+  <meta name="description" content="Aplicación de tareas hecha con patrón MVC. Organiza tu día de forma eficiente.">
+  <meta name="author" content="Tu Nombre o Equipo Coder">
 
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- CSS optimizado -->
+  <link rel="preload" href="style.css" as="style">
   <link rel="stylesheet" href="style.css">
+
+  <!-- PWA y accesibilidad -->
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
-  <div id="root"></div>
+  <!-- Accesible para lectores de pantalla -->
+  <main id="root" role="main" aria-label="Aplicación de Tareas"></main>
 
-  <script src="script.min.js"></script>
+  <!-- JS optimizado -->
+  <script src="script.min.js" defer></script>
 </body>
 
 </html>
